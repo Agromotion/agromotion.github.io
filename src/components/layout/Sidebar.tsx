@@ -22,9 +22,9 @@ const NAV: NavGroup[] = [
   {
     group: 'Sistema',
     items: [
-      { id: 'robot',     label: 'robô / Firmware',  Icon: Cpu },
-      { id: 'app',       label: 'Aplicação Flutter', Icon: Smartphone },
-      { id: 'telemetry', label: 'Telemetria',        Icon: Activity },
+      { id: 'robot',     label: 'Firmware',  Icon: Cpu },
+      { id: 'app',       label: 'Aplicação', Icon: Smartphone },
+      { id: 'telemetry', label: 'Telemetria', Icon: Activity },
     ],
   },
   {
