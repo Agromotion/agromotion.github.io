@@ -5,14 +5,6 @@ const META = [
   { label: 'Plataformas',  value: 'Android · iOS · Windows' },
 ]
 
-function MetaItem(props: { label: string; value: string }) {
-  return (
-    <div style={{ padding: '18px 0', flex: 1, minWidth: 140, borderRight: '1px solid var(--border-c)' }}>
-      <p style={{ fontSize: 10, fontFamily: 'DM Mono, monospace', color: 'var(--text3)', textTransform: 'uppercase' as const, letterSpacing: '.08em', marginBottom: 6 }}>{props.label}</p>
-      <p style={{ fontSize: 14, fontWeight: 500, color: 'var(--text2)' }}>{props.value}</p>
-    </div>
-  )
-}
 
 const sec: React.CSSProperties = {
   minHeight: 'calc(100vh - 52px)',
